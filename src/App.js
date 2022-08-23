@@ -22,7 +22,10 @@ function App() {
             path='/home'
             element={<Home toggleTheme={themeToggler} />}
           ></Route>
-          <Route path='chats/:chatid' element={<Chat />}></Route>
+          <Route
+            path='chats/:chatid'
+            element={<Chat toggleTheme={themeToggler} />}
+          ></Route>
         </Routes>
       </Container>
     </ThemeProvider>

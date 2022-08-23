@@ -14,6 +14,8 @@ export const lightTheme = {
   introHeading: '#333E5B',
   introParagraph: '#8F94A3',
   status: '#09132C',
+  online: '#128c7e',
+  onlineText: '#6E7FA9',
 };
 
 export const darkTheme = {
@@ -31,4 +33,6 @@ export const darkTheme = {
   introHeading: '#D1E4E8',
   introParagraph: '#8F94A3',
   status: '#ffffff',
+  online: '#128c7e',
+  onlineText: '#6E7FA9',
 };

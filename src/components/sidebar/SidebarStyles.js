@@ -87,7 +87,7 @@ export const SearchInput = styled(Input)`
   flex-grow: 1;
   padding-left: var(--span-xs);
   font-family: 'Plus Jakarta Sans';
-  font-size: var(--size-m);
+  font-size: var(--size-s);
   font-weight: var(--weight-sm);
   line-height: 24px;
   letter-spacing: 0em;
@@ -97,7 +97,7 @@ export const SearchInput = styled(Input)`
   &::-webkit-input-placeholder,
   &:-ms-input-placeholder {
     font-family: 'Plus Jakarta Sans';
-    font-size: var(--size-m);
+    font-size: var(--size-s);
     font-weight: var(--weight-sm);
     line-height: 24px;
     letter-spacing: 0em;
