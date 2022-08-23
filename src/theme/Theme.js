@@ -29,6 +29,6 @@ export const darkTheme = {
   chatLinkBg: '#7583b733',
   search: '#9393C1',
   introHeading: '#D1E4E8',
-  introParagraph: '#D1E4E8',
+  introParagraph: '#8F94A3',
   status: '#ffffff',
 };

@@ -5,7 +5,7 @@ import { lightTheme, darkTheme } from './theme/Theme';
 import { Container } from './styles/appStyle';
 
 import { Routes, Route } from 'react-router-dom';
-import { Home, Login } from './pages';
+import { Chat, Home, Login } from './pages';
 
 function App() {
   const [theme, themeToggler] = useDarkMode();
@@ -22,7 +22,7 @@ function App() {
             path='/home'
             element={<Home toggleTheme={themeToggler} />}
           ></Route>
-          <Route path='chats/:chatid'></Route>
+          <Route path='chats/:chatid' element={<Chat />}></Route>
         </Routes>
       </Container>
     </ThemeProvider>

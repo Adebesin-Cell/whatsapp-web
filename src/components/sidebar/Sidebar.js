@@ -68,7 +68,10 @@ const Sidebar = function (props) {
       </Tabs.Root>
       <ChatList>
         <ChatItem>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/1'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatar} />
             </ChatAvatarBox>
@@ -90,7 +93,10 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/2'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatarOne} />
             </ChatAvatarBox>
@@ -110,7 +116,10 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/3'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatarTwo} />
             </ChatAvatarBox>
@@ -130,7 +139,10 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/4'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatarThree} />
             </ChatAvatarBox>
@@ -152,7 +164,10 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/5'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatarFour} />
             </ChatAvatarBox>
@@ -174,7 +189,10 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/6'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatarFive} />
             </ChatAvatarBox>
@@ -194,7 +212,10 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/7'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatarSix} />
             </ChatAvatarBox>
@@ -216,7 +237,10 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/8'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatarSeven} />
             </ChatAvatarBox>
@@ -238,7 +262,10 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/9'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatarEight} />
             </ChatAvatarBox>
@@ -260,7 +287,10 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
-          <ChatLink to='/'>
+          <ChatLink
+            to='/chats/10'
+            className={({ isActive }) => (isActive ? 'active' : '')}
+          >
             <ChatAvatarBox>
               <ChatAvatar src={avatarNine} />
             </ChatAvatarBox>

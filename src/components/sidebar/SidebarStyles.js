@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Button from '../UI/button/Button';
 import Input from '../UI/input/Input';
 import * as Tabs from '@radix-ui/react-tabs';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const Container = styled.div`
   background: ${({ theme }) => theme.sidebar};
@@ -154,7 +154,7 @@ export const ChatItem = styled.li`
   list-style-type: none;
 `;
 
-export const ChatLink = styled(Link)`
+export const ChatLink = styled(NavLink)`
   text-decoration: none;
   padding: 8px 12px;
   display: flex;
@@ -167,6 +167,10 @@ export const ChatLink = styled(Link)`
   }
 
   &:hover {
+    background: ${({ theme }) => theme.chatLinkBg};
+  }
+
+  &.active {
     background: ${({ theme }) => theme.chatLinkBg};
   }
 `;

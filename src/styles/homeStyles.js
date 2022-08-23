@@ -27,7 +27,7 @@ export const HomeParagraph = styled.p`
   margin-top: var(--span-s);
   font-family: 'Plus Jakarta Sans';
   font-size: calc(var(--size-s));
-  font-weight: var(--weight-sm);
+  font-weight: var(--weight-md);
   line-height: 23px;
   letter-spacing: 0em;
   text-align: center;
