@@ -22,3 +22,16 @@ export const HomeHeading = styled.h1`
   max-width: 300px;
   color: ${({ theme }) => theme.introHeading};
 `;
+
+export const HomeParagraph = styled.p`
+  margin-top: var(--span-s);
+  font-family: 'Plus Jakarta Sans';
+  font-size: calc(var(--size-s));
+  font-weight: var(--weight-sm);
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: ${({ theme }) => theme.introParagraph};
+  max-width: 490px;
+  padding: 0 var(--span-m);
+`;

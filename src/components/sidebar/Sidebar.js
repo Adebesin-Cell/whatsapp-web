@@ -44,7 +44,7 @@ const Sidebar = function (props) {
     <Container>
       <Header>
         <Avatar onClick={props.toggleTheme} src={avatar}></Avatar>
-        <Button>
+        <Button className='status__btn'>
           <StatusIcon />
         </Button>
         <Btn>

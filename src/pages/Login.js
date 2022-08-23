@@ -1,5 +1,7 @@
+import { Container } from '../styles/loginStyles';
+
 const LoginView = function () {
-  return <div className='lol'>&nbsp;</div>;
+  return <Container>&nbsp;</Container>;
 };
 
 export default LoginView;

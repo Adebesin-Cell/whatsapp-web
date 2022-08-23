@@ -12,6 +12,8 @@ export const lightTheme = {
   whiteFixed: '#ffffff',
   chatLinkBg: '#D1E4E8',
   introHeading: '#333E5B',
+  introParagraph: '#8F94A3',
+  status: '#09132C',
 };
 
 export const darkTheme = {
@@ -27,4 +29,6 @@ export const darkTheme = {
   chatLinkBg: '#7583b733',
   search: '#9393C1',
   introHeading: '#D1E4E8',
+  introParagraph: '#D1E4E8',
+  status: '#ffffff',
 };

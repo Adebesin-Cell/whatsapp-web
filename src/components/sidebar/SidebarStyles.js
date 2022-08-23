@@ -13,6 +13,10 @@ export const Container = styled.div`
   padding-top: var(--span-s);
   overflow-y: hidden;
   transition: all 300ms;
+
+  @media only screen and (max-width: 1140px) {
+    border-radius: 0px;
+  }
 `;
 
 export const Header = styled.div`
@@ -21,6 +25,14 @@ export const Header = styled.div`
   align-items: center;
   padding-left: var(--span-m);
   padding-right: var(--span-s);
+
+  .status__btn {
+    svg {
+      .circle {
+        stroke: ${({ theme }) => theme.status};
+      }
+    }
+  }
 `;
 
 export const Avatar = styled.img`
