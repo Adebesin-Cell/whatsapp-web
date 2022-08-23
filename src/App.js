@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import useDarkMode from './hooks/useDarkMode';
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyles } from './theme/globalStyles';
+import { lightTheme, darkTheme } from './theme/Theme';
+import { Container } from './styles/appStyle';
+
+import { Routes, Route } from 'react-router-dom';
+import { Home } from './pages';
 
 function App() {
+  const [theme, themeToggler] = useDarkMode();
+
+  const themeMode = theme === 'dark' ? darkTheme : lightTheme;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={themeMode}>
+      <GlobalStyles></GlobalStyles>
+      <Container className='container'>
+        <Routes>
+          <Route
+            path='/home'
+            element={<Home toggleTheme={themeToggler} />}
+          ></Route>
+          <Route path='chats/:chatid'></Route>
+        </Routes>
+      </Container>
+    </ThemeProvider>
   );
 }
 

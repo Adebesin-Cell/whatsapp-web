@@ -1,0 +1,11 @@
+.tabs {
+    margin-top: var(--span-s);
+    padding-bottom: calc(var(--span-xs) + 5px);
+    padding-left: var(--span-m);
+    padding-right: var(--span-s);
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

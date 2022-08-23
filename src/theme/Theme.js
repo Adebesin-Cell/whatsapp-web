@@ -1,0 +1,30 @@
+export const lightTheme = {
+  body: '#ffffff',
+  view: '#fafafa',
+  icon: '#09132C',
+  sidebar: '#E3F2F1',
+  search: '#9393C1',
+  white: '#ffffff',
+  tabsButtonText: '#5A6A9D',
+  chatTitle: '#09132C',
+  chatMessage: '#09132C',
+  chatDate: '#829C99',
+  whiteFixed: '#ffffff',
+  chatLinkBg: '#D1E4E8',
+  introHeading: '#333E5B',
+};
+
+export const darkTheme = {
+  body: '#151515',
+  view: '#09132C',
+  icon: '#ffffff',
+  sidebar: '#2F3A5F',
+  chatTitle: '#D1E4E8',
+  tabsButtonText: '#5A6A9D',
+  chatMessage: '#D1E4E8',
+  chatDate: ' #829C99',
+  whiteFixed: '#ffffff',
+  chatLinkBg: '#7583b733',
+  search: '#9393C1',
+  introHeading: '#D1E4E8',
+};
