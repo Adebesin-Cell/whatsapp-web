@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Header = styled.div`
   display: flex;
-  background: #f7f7fc;
+  background: ${({ theme }) => theme.chatHeader};
   padding: var(--span-s);
   border-top-right-radius: 24px;
 `;
@@ -139,7 +139,7 @@ export const ChatSecurityInfo = styled.p`
 
 export const Footer = styled.div`
   display: flex;
-  background: #f7f7fc;
+  background: ${({ theme }) => theme.chatFooter};
   padding: var(--span-s);
   border-bottom-right-radius: 24px;
   gap: var(--span-s);

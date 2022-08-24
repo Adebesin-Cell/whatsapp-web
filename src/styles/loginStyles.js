@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import background from '../assets/images/login-background.png';
+import Button from '../components/UI/button/Button';
 
 export const Container = styled.div`
   max-width: 1140px;
@@ -38,4 +39,53 @@ export const LoginImage = styled.div`
 
 export const LoginForm = styled.form`
   padding: calc(var(--span-2xl) + var(--span-s));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`;
+
+export const LoginHeading = styled.h1`
+  font-family: 'Plus Jakarta Sans';
+  font-size: calc(var(--size-xl));
+  font-weight: var(--weight-md);
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: ${({ theme }) => theme.loginHeading};
+`;
+
+export const LoginParagraph = styled.p`
+  margin-top: 3px;
+  font-family: 'Plus Jakarta Sans';
+  font-size: calc(var(--size-m));
+  font-weight: var(--weight-sm);
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: ${({ theme }) => theme.loginHeading};
+`;
+
+export const LoginButton = styled(Button)`
+  padding: calc(var(--span-xs) + 5px) var(--span-2xl);
+  background: ${({ theme }) => theme.loginButton};
+  border: 1px solid #f6f6f6;
+  box-shadow: 0px 4px 10px rgba(110, 110, 110, 0.07);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(var(--span-xs) + 5px);
+  width: 100%;
+  margin-top: var(--span-m);
+`;
+
+export const LoginText = styled.span`
+  font-family: 'Plus Jakarta Sans';
+  font-size: var(--size-s);
+  font-weight: var(--weight-sm);
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1e1e1e;
 `;

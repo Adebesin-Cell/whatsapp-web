@@ -117,7 +117,7 @@ export const TabsButton = styled(Tabs.Trigger)`
   text-align: center;
   border: none;
   outline: none;
-  background: ${({ theme }) => theme.white};
+  background: ${({ theme }) => theme.whiteFixed};
   cursor: pointer;
   color: ${({ theme }) => theme.tabsButtonText};
   transition: all 300ms;
@@ -132,8 +132,7 @@ export const TabsButton = styled(Tabs.Trigger)`
 
   &[data-state='active'] {
     color: ${({ theme }) => theme.whiteFixed};
-    /* background: ${({ theme }) => theme.white}; */
-    background: #128c7e;
+    background: ${({ theme }) => theme.tabsButton};
   }
 `;
 
@@ -164,7 +163,11 @@ export const ChatLink = styled(NavLink)`
   transition: all 300ms;
 
   &:hover .chat__text {
-    color: #5a6a9d;
+    color: ${({ theme }) => theme.chatTextHover};
+  }
+
+  &:hover .chat__date {
+    color: ${({ theme }) => theme.chatTimeHover};
   }
 
   &:hover {
@@ -209,6 +212,7 @@ export const ChatTitle = styled.h1`
   letter-spacing: 0em;
   text-align: left;
   color: ${({ theme }) => theme.chatTitle};
+  transition: all 300ms;
 `;
 
 export const ChatDate = styled.h6`
@@ -219,6 +223,7 @@ export const ChatDate = styled.h6`
   letter-spacing: 0em;
   text-align: right;
   color: ${({ theme }) => theme.chatDate};
+  transition: all 300ms;
 `;
 
 export const ChatFooter = styled.div`

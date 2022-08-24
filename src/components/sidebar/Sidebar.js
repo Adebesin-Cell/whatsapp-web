@@ -80,7 +80,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Cody Fisher</ChatTitle>
-                <ChatDate>05:14pm</ChatDate>
+                <ChatDate className='chat__date'>05:14pm</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>
@@ -95,6 +95,8 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
+        </ChatItem>
+        <ChatItem>
           <ChatLink
             to='/chats/2'
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -105,7 +107,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Jane Cooper</ChatTitle>
-                <ChatDate>07:38 am</ChatDate>
+                <ChatDate className='chat__date'>07:38 am</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>Haha oh man</ChatMessage>
@@ -118,6 +120,8 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
+        </ChatItem>
+        <ChatItem>
           <ChatLink
             to='/chats/3'
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -128,7 +132,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Floyd Miles</ChatTitle>
-                <ChatDate>yesterday</ChatDate>
+                <ChatDate className='chat__date'>yesterday</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>perfect!</ChatMessage>
@@ -141,6 +145,8 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
+        </ChatItem>
+        <ChatItem>
           <ChatLink
             to='/chats/4'
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -151,7 +157,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Marvin McKinney</ChatTitle>
-                <ChatDate>yesterday</ChatDate>
+                <ChatDate className='chat__date'>yesterday</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>
@@ -166,6 +172,8 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
+        </ChatItem>
+        <ChatItem>
           <ChatLink
             to='/chats/5'
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -176,7 +184,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Dianne Russell</ChatTitle>
-                <ChatDate>yesterday</ChatDate>
+                <ChatDate className='chat__date'>yesterday</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>
@@ -191,6 +199,8 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
+        </ChatItem>
+        <ChatItem>
           <ChatLink
             to='/chats/6'
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -201,7 +211,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Stephen Grider</ChatTitle>
-                <ChatDate>7/23/2022</ChatDate>
+                <ChatDate className='chat__date'>7/23/2022</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>Lmao</ChatMessage>
@@ -214,6 +224,8 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
+        </ChatItem>
+        <ChatItem>
           <ChatLink
             to='/chats/7'
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -224,7 +236,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Cody Fisher</ChatTitle>
-                <ChatDate>05:14pm</ChatDate>
+                <ChatDate className='chat__date'>05:14pm</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>
@@ -239,6 +251,8 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
+        </ChatItem>
+        <ChatItem>
           <ChatLink
             to='/chats/8'
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -249,7 +263,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Cody Fisher</ChatTitle>
-                <ChatDate>05:14pm</ChatDate>
+                <ChatDate className='chat__date'>05:14pm</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>
@@ -264,6 +278,8 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
+        </ChatItem>
+        <ChatItem>
           <ChatLink
             to='/chats/9'
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -274,7 +290,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Cody Fisher</ChatTitle>
-                <ChatDate>05:14pm</ChatDate>
+                <ChatDate className='chat__date'>05:14pm</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>
@@ -289,6 +305,8 @@ const Sidebar = function (props) {
               </ChatFooter>
             </ChatDetails>
           </ChatLink>
+        </ChatItem>
+        <ChatItem>
           <ChatLink
             to='/chats/10'
             className={({ isActive }) => (isActive ? 'active' : '')}
@@ -299,7 +317,7 @@ const Sidebar = function (props) {
             <ChatDetails>
               <ChatInfo>
                 <ChatTitle>Cody Fisher</ChatTitle>
-                <ChatDate>05:14pm</ChatDate>
+                <ChatDate className='chat__date'>05:14pm</ChatDate>
               </ChatInfo>
               <ChatFooter>
                 <ChatMessage className='chat__text'>
