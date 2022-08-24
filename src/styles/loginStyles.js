@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import background from '../assets/images/login-background.png';
 
 export const Container = styled.div`
   max-width: 1140px;
   width: 100%;
   height: calc(100vh - 2 * var(--span-l));
-  background: ${({ theme }) => theme.view};
+  background: ${({ theme }) => theme.login};
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
     0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
     0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
@@ -20,4 +21,21 @@ export const Container = styled.div`
     height: 100vh;
     border-radius: 0px;
   }
+`;
+
+export const LoginImage = styled.div`
+  background-image: url(${background});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+
+  @media only screen and (max-width: 1140px) {
+    border-radius: 0px;
+  }
+`;
+
+export const LoginForm = styled.form`
+  padding: calc(var(--span-2xl) + var(--span-s));
 `;

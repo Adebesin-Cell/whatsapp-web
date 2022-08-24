@@ -1,7 +1,12 @@
-import { Container } from '../styles/loginStyles';
+import { Container, LoginImage, LoginForm } from '../styles/loginStyles';
 
 const LoginView = function () {
-  return <Container>&nbsp;</Container>;
+  return (
+    <Container>
+      <LoginImage />
+      <LoginForm>&nbsp;</LoginForm>
+    </Container>
+  );
 };
 
 export default LoginView;

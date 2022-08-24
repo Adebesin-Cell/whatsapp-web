@@ -16,6 +16,7 @@ export const lightTheme = {
   status: '#09132C',
   online: '#128c7e',
   onlineText: '#6E7FA9',
+  login: '#FFFFFF',
 };
 
 export const darkTheme = {
