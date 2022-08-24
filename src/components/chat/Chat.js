@@ -18,6 +18,7 @@ import {
   AudioButton,
   ChatInput,
 } from './ChatStyles';
+import Convo from './components/Convo';
 import Button from '../UI/button/Button';
 import avatar from '../../assets/images/avatar--20.jpg';
 import * as Icon from 'react-feather';
@@ -61,6 +62,7 @@ const Chat = function () {
             even WhatsApp can read or listen to them click to learn more.
           </ChatSecurityInfo>
         </ChatSecurity>
+        <Convo />
       </ChatBody>
       <Footer>
         <EmojiButton>

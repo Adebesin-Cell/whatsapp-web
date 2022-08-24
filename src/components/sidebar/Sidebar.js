@@ -22,6 +22,7 @@ import {
   ChatActions,
   ChatRead,
   ChatUnread,
+  NewChat,
 } from './SidebarStyles';
 import avatar from '../../assets/images/avatar.jpg';
 import avatarOne from '../../assets/images/avatar--10.jpg';
@@ -35,6 +36,7 @@ import avatarEight from '../../assets/images/avatar--8.jpg';
 import avatarNine from '../../assets/images/avatar--9.jpg';
 import * as Icon from 'react-feather';
 import { ReactComponent as StatusIcon } from '../../assets/svgs/icon-status.svg';
+import { ReactComponent as MessageIcon } from '../../assets/svgs/icon-message.svg';
 import Button from '../UI/button/Button';
 import * as Tabs from '@radix-ui/react-tabs';
 import './Sidebar.scss';
@@ -314,6 +316,9 @@ const Sidebar = function (props) {
           </ChatLink>
         </ChatItem>
       </ChatList>
+      <NewChat>
+        <MessageIcon />
+      </NewChat>
     </Container>
   );
 };

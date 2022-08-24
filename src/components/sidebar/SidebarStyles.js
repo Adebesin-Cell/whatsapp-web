@@ -13,6 +13,7 @@ export const Container = styled.div`
   padding-top: var(--span-s);
   overflow-y: hidden;
   transition: all 300ms;
+  position: relative;
 
   @media only screen and (max-width: 1140px) {
     border-radius: 0px;
@@ -276,5 +277,24 @@ export const ChatRead = styled.span`
   svg {
     width: 16px;
     height: 16px;
+  }
+`;
+
+export const NewChat = styled(Button)`
+  position: absolute;
+  right: var(--span-s);
+  bottom: var(--span-m);
+  width: 60px;
+  height: 60px;
+  background: #128c7e;
+  box-shadow: 0px 3.29412px 15.6471px rgba(18, 140, 126, 0.16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  svg {
+    width: 21px;
+    height: 21px;
   }
 `;
