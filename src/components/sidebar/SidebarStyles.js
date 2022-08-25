@@ -248,6 +248,7 @@ export const ChatMessage = styled.p`
   letter-spacing: 0em;
   text-align: left;
   color: ${({ theme }) => theme.chatMessage};
+  opacity: 0.6;
   transition: all 300ms;
 `;
 
