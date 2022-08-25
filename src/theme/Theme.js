@@ -24,6 +24,7 @@ export const lightTheme = {
   chatHeader: '#F7F7FC',
   loginHeading: '#1E1E1E',
   loginButton: '#FFFFFF',
+  line: '#747474',
 };
 
 export const darkTheme = {
@@ -51,4 +52,5 @@ export const darkTheme = {
   chatHeader: '#5A6A9D',
   loginHeading: '#ffffff',
   loginButton: '#D1E4E8',
+  line: '#747474',
 };

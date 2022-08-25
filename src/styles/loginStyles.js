@@ -89,3 +89,19 @@ export const LoginText = styled.span`
   text-align: center;
   color: #1e1e1e;
 `;
+
+export const LoginAlternative = styled.div`
+  margin-top: var(--span-m);
+  padding: 0 calc(var(--span-2xl) + var(--span-xs) + 5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--span-xs);
+  width: 100%;
+`;
+
+export const LoginLine = styled.span`
+  height: 1px;
+  flex: 1 0 43px;
+  background: ${({ theme }) => theme.line};
+`;

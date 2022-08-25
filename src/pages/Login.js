@@ -6,6 +6,8 @@ import {
   LoginParagraph,
   LoginButton,
   LoginText,
+  LoginAlternative,
+  LoginLine,
 } from '../styles/loginStyles';
 import { ReactComponent as GoogleIcon } from '../assets/svgs/icon-google.svg';
 
@@ -20,6 +22,11 @@ const LoginView = function () {
           <GoogleIcon />
           <LoginText>Sign In with google</LoginText>
         </LoginButton>
+        <LoginAlternative>
+          <LoginLine />
+          <LoginText>or continue with email</LoginText>
+          <LoginLine />
+        </LoginAlternative>
       </LoginForm>
     </Container>
   );
