@@ -18,6 +18,7 @@ function App() {
       <Container className='container'>
         <Routes>
           <Route path='/' element={<Login />}></Route>
+          <Route path='/register'></Route>
           <Route
             path='/home'
             element={<Home toggleTheme={themeToggler} />}

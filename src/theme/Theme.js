@@ -24,7 +24,15 @@ export const lightTheme = {
   chatHeader: '#F7F7FC',
   loginHeading: '#1E1E1E',
   loginButton: '#FFFFFF',
+  loginInput: '#f7f7f7',
   line: '#747474',
+  loginLabel: '#1E1E1E',
+  loginInputText: '#000000',
+  loginInputPlaceholder: '#6E6E6E',
+  submitButton: '#128C7E',
+  loginCtaText: '#000000',
+  loginCtaLink: '#128c7e',
+  loginText: '#1e1e1e',
 };
 
 export const darkTheme = {
@@ -53,4 +61,12 @@ export const darkTheme = {
   loginHeading: '#ffffff',
   loginButton: '#D1E4E8',
   line: '#747474',
+  loginInput: '#D1E4E8',
+  loginLabel: '#747474',
+  loginInputText: '#1E1E1E',
+  loginInputPlaceholder: '#646464',
+  submitButton: '#128C7E',
+  loginCtaText: '#ffffff',
+  loginCtaLink: '#128c7e',
+  loginText: '#747474',
 };
